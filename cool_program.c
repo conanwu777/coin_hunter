@@ -95,7 +95,7 @@ int		main(void)
 	int		db;
 
 	vars.mlx = mlx_init();
-	vars.win = mlx_new_window(vars.mlx, W, H, "Wolf3D");
+	vars.win = mlx_new_window(vars.mlx, W, H, "Coin Hunter");
 	vars.img = mlx_new_image(vars.mlx, W, H);
 	vars.str = mlx_get_data_addr(vars.img, &db, &db, &db);
 	textures(&vars);
